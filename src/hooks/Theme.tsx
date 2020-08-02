@@ -12,6 +12,7 @@ interface DefaultTheme {
     secondary: string;
     text: string;
     background: string;
+    backgroundSecondary: string;
   };
 }
 
@@ -22,6 +23,7 @@ const dark: DefaultTheme = {
     secondary: '#ccc',
     text: '#666',
     background: '#000',
+    backgroundSecondary: '#fff',
   },
 };
 
@@ -31,7 +33,8 @@ const light: DefaultTheme = {
     primary: '#000',
     secondary: '#04030F',
     text: '#666',
-    background: '#fff',
+    background: '#ebebeb',
+    backgroundSecondary: '#fff',
   },
 };
 
