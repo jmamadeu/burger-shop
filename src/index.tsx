@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { StatusBar } from 'expo-status-bar';
+import { StatusBar } from 'react-native';
 
 import Home from './pages/Home';
 import { useTheme } from './hooks/Theme';
@@ -12,7 +12,9 @@ const App: React.FC = () => {
     <>
       <StatusBar
         backgroundColor={currentTheme.colors.background}
-        style={currentTheme.title === 'light' ? 'dark' : 'light'}
+        barStyle={
+          currentTheme.title === 'dark' ? 'light-content' : 'dark-content'
+        }
       />
       <Home />
     </>
