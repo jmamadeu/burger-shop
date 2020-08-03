@@ -1,8 +1,11 @@
 import React from 'react';
 
+import { View } from 'react-native';
 import { MaterialCommunityIcons, Feather } from '@expo/vector-icons';
 
 import { useTheme } from '../../hooks/Theme';
+
+import { heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 import {
   Container,
@@ -26,7 +29,6 @@ import {
   PriceContainer,
   PriceText,
 } from './styles';
-import { Text, View } from 'react-native';
 
 const categoriesImage = [
   { source: require('../../assets/hamburguer.png') },
@@ -46,14 +48,14 @@ const Home: React.FC = () => {
         <LeftIcon>
           <MaterialCommunityIcons
             name='segment'
-            size={30}
+            size={hp('4%')}
             color={currentTheme.colors.primary}
           />
         </LeftIcon>
         <SwitchTheme onPress={handleChangeTheme}>
           <MaterialCommunityIcons
             name='theme-light-dark'
-            size={30}
+            size={hp('4%')}
             color={currentTheme.colors.primary}
           />
         </SwitchTheme>
@@ -119,7 +121,7 @@ const Home: React.FC = () => {
                   <Feather
                     name='heart'
                     color={currentTheme.colors.primary}
-                    size={24}
+                    size={hp('2.5%')}
                   />
                 </PriceContainer>
               </FoodDescriptionContainer>
@@ -159,7 +161,7 @@ const Home: React.FC = () => {
                   <Feather
                     name='heart'
                     color={currentTheme.colors.primary}
-                    size={24}
+                    size={hp('2.5%')}
                   />
                 </PriceContainer>
               </FoodDescriptionContainer>
@@ -201,12 +203,11 @@ const Home: React.FC = () => {
                   <Feather
                     name='heart'
                     color={currentTheme.colors.primary}
-                    size={24}
+                    size={hp('2.5%')}
                   />
                 </PriceContainer>
               </FoodDescriptionContainer>
             </FoodItem>
-
             <FoodItem
               style={{
                 backgroundColor:
@@ -242,7 +243,90 @@ const Home: React.FC = () => {
                   <Feather
                     name='heart'
                     color={currentTheme.colors.primary}
-                    size={24}
+                    size={hp('2.5%')}
+                  />
+                </PriceContainer>
+              </FoodDescriptionContainer>
+            </FoodItem>
+          </FoodContentContainer>
+
+          <FoodContentContainer>
+            <FoodItem
+              style={{
+                backgroundColor:
+                  currentTheme.title === 'dark'
+                    ? currentTheme.colors.text
+                    : currentTheme.colors.backgroundSecondary,
+              }}
+            >
+              <View style={{ alignItems: 'center' }}>
+                <FoodImage
+                  resizeMode='stretch'
+                  source={require('../../assets/content/burger1.png')}
+                />
+              </View>
+              <FoodDescriptionContainer>
+                <FoodTitle style={{ color: currentTheme.colors.primary }}>
+                  Beef Burger
+                </FoodTitle>
+                <FoodSlogan
+                  style={{
+                    color:
+                      currentTheme.title === 'light'
+                        ? currentTheme.colors.text
+                        : currentTheme.colors.secondary,
+                  }}
+                >
+                  Spicy with garlick
+                </FoodSlogan>
+                <PriceContainer>
+                  <PriceText style={{ color: currentTheme.colors.primary }}>
+                    1000 Kz
+                  </PriceText>
+                  <Feather
+                    name='heart'
+                    color={currentTheme.colors.primary}
+                    size={hp('2.5%')}
+                  />
+                </PriceContainer>
+              </FoodDescriptionContainer>
+            </FoodItem>
+            <FoodItem
+              style={{
+                backgroundColor:
+                  currentTheme.title === 'dark'
+                    ? currentTheme.colors.text
+                    : currentTheme.colors.backgroundSecondary,
+              }}
+            >
+              <View style={{ alignItems: 'center' }}>
+                <FoodImage
+                  resizeMode='stretch'
+                  source={require('../../assets/content/burger1.png')}
+                />
+              </View>
+              <FoodDescriptionContainer>
+                <FoodTitle style={{ color: currentTheme.colors.primary }}>
+                  Beef Burger
+                </FoodTitle>
+                <FoodSlogan
+                  style={{
+                    color:
+                      currentTheme.title === 'light'
+                        ? currentTheme.colors.text
+                        : currentTheme.colors.secondary,
+                  }}
+                >
+                  Spicy with garlick
+                </FoodSlogan>
+                <PriceContainer>
+                  <PriceText style={{ color: currentTheme.colors.primary }}>
+                    1000 Kz
+                  </PriceText>
+                  <Feather
+                    name='heart'
+                    color={currentTheme.colors.primary}
+                    size={hp('2.5%')}
                   />
                 </PriceContainer>
               </FoodDescriptionContainer>
