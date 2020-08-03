@@ -11,7 +11,7 @@ Mobile Application to simulate a burger shop with DARK/LIGHT MODE
 ## :card_index: Layout
 
 <div>
-  <img src="./.github/img1.png" width="400" height="400" />
+  <img src="./.github/img1.png" width="400" height="800" />
   <img src="./.github/img2.png" />  
 </div>
 
