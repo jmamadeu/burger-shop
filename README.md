@@ -12,15 +12,15 @@ Mobile Application to simulate a burger shop with DARK/LIGHT MODE
 
 <div>
   <img src="./.github/img1.png" width="400" height="800" />
-  <img src="./.github/img2.png" />  
+  <img src="./.github/img2.png" width="400" height="800" />
 </div>
 
 <div>
-  <img src="./.github/img3.png" />
-  <img src="./.github/img4.png" />  
+  <img src="./.github/img3.png" width="400" height="800" />
+  <img src="./.github/img4.png" width="400" height="800" />
 </div>
 
-<img src="./.github/img5.png" />
+<img src="./.github/img5.png" width="400" height="800" />
 
 ## :construction_worker: Installation
 
