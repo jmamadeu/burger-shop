@@ -8,6 +8,20 @@ Mobile Application to simulate a burger shop with DARK/LIGHT MODE
 	🚧  Burger Shop🚀...  🚧
 </h4>
 
+## :card_index: Layout
+
+<div>
+  <img src="./.github/img1.png" />
+  <img src="./.github/img2.png" />  
+</div>
+
+<div>
+  <img src="./.github/img3.png" />
+  <img src="./.github/img4.png" />  
+</div>
+
+<img src="./.github/img5.png" />
+
 ## :construction_worker: Installation
 
 You will need to install
