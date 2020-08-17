@@ -10,17 +10,13 @@ Mobile Application to simulate a burger shop with DARK/LIGHT MODE
 
 ## :card_index: Layout
 
-<div>
-  <img src="./.github/img1.png" width="400" height="800" />
-  <img src="./.github/img2.png" width="400" height="800" />
-</div>
+<h4 align="center"> 
+	🚧  Under development🚀...  🚧
+</h4>
 
-<div>
-  <img src="./.github/img3.png" width="400" height="800" />
-  <img src="./.github/img4.png" width="400" height="800" />
+<div align="center">
+  <img src="./.github/sample.gif" />
 </div>
-
-<img src="./.github/img5.png" width="400" height="800" />
 
 ## :construction_worker: Installation
 
@@ -42,4 +38,14 @@ $ yarn # Install all dependencies
 $ yarn start # Running the project
 ```
 
-:tada: Congratulations, the project is running
+:tada: Congratulations, the project is running. <br />
+
+## :bulb: Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## :bookmark: License
+
+[MIT](https://choosealicense.com/licenses/mit/)
